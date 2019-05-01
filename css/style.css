@@ -1,3 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 98px;
+}
+
+/* Header */
+
+.Header .Header__head {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.Header .Header__body {
+    flex: 4 1 auto;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu .Menu__item {
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
 
 .main-image img {
     width: 100%;
