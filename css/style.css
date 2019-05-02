@@ -10,14 +10,16 @@ h2 {
     font-size: 18pt;
 }
 
+
+/* Header */
+
 .Header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     min-height: 50px;
+    border-top: 2px solid orange;
 }
-
-/* Header */
 
 .Header .Header__head {
     flex: 1 1 auto;
@@ -42,4 +44,12 @@ h2 {
 
 .main-image img {
     width: 100%;
+}
+
+
+.Footer {
+    display: flex;
+    background-color: #333;
+    color: white;
+    min-height: 50px;
 }
