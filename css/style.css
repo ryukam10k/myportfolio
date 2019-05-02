@@ -80,6 +80,13 @@ a {
     border-bottom: 5px solid skyblue; 
 }
 
+#typing {
+    transform: rotateZ(13deg);
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    font-size: 1.5vw;
+}
 
 .Footer {
     display: flex;
