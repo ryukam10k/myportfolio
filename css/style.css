@@ -1,5 +1,6 @@
 body {
-    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+    color: #333;
 }
 
 h1 {
@@ -34,6 +35,10 @@ p {
 
 li {
     line-height: 1.5em;
+}
+
+a {
+    color: #333;
 }
 
 /* Header */
